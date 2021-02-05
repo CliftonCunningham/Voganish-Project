@@ -280,10 +280,10 @@ coverCR = () -> (
 	E22 = sub(E22, bigRing);
 	E32 := matrix{{1,0},{0,1},{c1,c2},{c3,c4}};
 	E32 = sub(E32, bigRing);
-	x0 := sub(x0Matrix(0), bigRing);
-	x1 := sub(x1Matrix(0), bigRing);
-	x2 := sub(x2Matrix(0), bigRing);
-	x3 := sub(x3Matrix(0), bigRing);
+	x0 := sub(x0Matrix(), bigRing);
+	x1 := sub(x1Matrix(), bigRing);
+	x2 := sub(x2Matrix(), bigRing);
+	x3 := sub(x3Matrix(), bigRing);
 	equationsCover :={};
 	use bigRing;
 -- Flag eqn x3 \subset E12
@@ -323,10 +323,10 @@ coverCr = () -> (
 	E23 = sub(E23, bigRing);
 	E32 := matrix{{1,0},{0,1},{d1,d2},{d3,d4}};
 	E32 = sub(E32, bigRing);
-	x0 := sub(x0Matrix(0), bigRing);
-	x1 := sub(x1Matrix(0), bigRing);
-	x2 := sub(x2Matrix(0), bigRing);
-	x3 := sub(x3Matrix(0), bigRing);
+	x0 := sub(x0Matrix(), bigRing);
+	x1 := sub(x1Matrix(), bigRing);
+	x2 := sub(x2Matrix(), bigRing);
+	x3 := sub(x3Matrix(), bigRing);
 	equationsCover :={};
 	use bigRing;
 -- Flag eqn x3 \subset E12
@@ -388,10 +388,10 @@ coverCm = () -> (
 	E33 = sub(E33, bigRing);
 	E41 := matrix{{1},{g}};
 	E41 = sub(E41, bigRing);
-	x0 := sub(x0Matrix(0), bigRing);
-	x1 := sub(x1Matrix(0), bigRing);
-	x2 := sub(x2Matrix(0), bigRing);
-	x3 := sub(x3Matrix(0), bigRing);
+	x0 := sub(x0Matrix(), bigRing);
+	x1 := sub(x1Matrix(), bigRing);
+	x2 := sub(x2Matrix(), bigRing);
+	x3 := sub(x3Matrix(), bigRing);
 	equationsCover :={};
 	use bigRing;
 -- Flag eqn x3 \subset E12
@@ -470,10 +470,10 @@ coverCpsi = () -> (
 	E33 = sub(E33, bigRing);
 	E41 := matrix{{1},{g}};
 	E41 = sub(E41, bigRing);
-	x0 := sub(x0Matrix(0), bigRing);
-	x1 := sub(x1Matrix(0), bigRing);
-	x2 := sub(x2Matrix(0), bigRing);
-	x3 := sub(x3Matrix(0), bigRing);
+	x0 := sub(x0Matrix(), bigRing);
+	x1 := sub(x1Matrix(), bigRing);
+	x2 := sub(x2Matrix(), bigRing);
+	x3 := sub(x3Matrix(), bigRing);
 	equationsCover :={};
 	use bigRing;
 -- Flag eqn x3 \subset E12
